@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bookmark Organizer</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>书签整理助手</h1>
+        <div class="controls">
+            <button id="exportBtn" class="btn">导出书签</button>
+            <div class="options">
+                <label>
+                    <input type="checkbox" id="autoClassify" checked>
+                    自动分类
+                </label>
+            </div>
+        </div>
+        <div id="status" class="status"></div>
+    </div>
+    <script src="lib/xlsx.full.min.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Bookmark Organizer",
+  "version": "1.0",
+  "description": "整理Chrome书签并导出为Excel格式，支持自动分类",
+  "permissions": [
+    "bookmarks",
+    "downloads",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
